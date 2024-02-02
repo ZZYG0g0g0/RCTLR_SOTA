@@ -1,0 +1,17 @@
+Name: AssignRemoveTeachings
+Actors: Administrator
+Description: Assigns or removes one or more courses from an address
+Preconditions:
+• • • •
+The user is logged into the system as an Administrator The user has run the use case "View Address Details" The user views the detailed information of an address The user clicks the "Address Teachings" button
+Sequence of events
+User
+2. Select the courses to be assigned or removed from the address
+3. Click on the "Submit" button
+System
+1. Displays a form from which you can add and / or remove courses to the address.
+4. Associate or remove the courses selected at the address.
+5. Go back to viewing the address details.
+Postconditions:
+• • •
+The Administrator interrupts the operation Connection to the SMOS server interrupted The system has changed the teachings relating to the address

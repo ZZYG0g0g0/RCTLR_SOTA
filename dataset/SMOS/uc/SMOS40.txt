@@ -1,0 +1,15 @@
+Name: EditJustify
+Actors: Administrator
+Description: Modification of a Justification
+Preconditions:
+• The user must be logged in to the system as Administrator • The user has carried out the use case "ViewDetailsJustify" and the system is
+viewing the details of a justify
+Sequence of events
+User
+System
+1. Modify one or more fields of the displayed form: date justifies.
+2. Click on "Save"
+3. Edit justifies it.
+Postconditions:
+• • •
+The justification has been changed. The system returns to the log screen. The administrator interrupts the operation Connection to the SMOS server interrupted

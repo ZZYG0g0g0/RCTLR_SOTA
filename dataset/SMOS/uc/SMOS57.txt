@@ -1,0 +1,12 @@
+Name: ViewLog
+Actors: Teacher
+Description: Viewing the class register
+Preconditions:
+• The user is logged into the system as a teacher • The user has carried out the use case "ViewClass List" and the system is
+viewing the list of all the classes in which he teaches • The user clicks on the "Register" button associated with one of the classes
+Sequence of events
+User
+System
+1. View information relating to the class register and in particular: Date, Absences, Disciplinary Notes, Delays and Justifications.
+Postconditions::
+• Information about the class register has been shown. • Connection to the SMOS server is interrupted.

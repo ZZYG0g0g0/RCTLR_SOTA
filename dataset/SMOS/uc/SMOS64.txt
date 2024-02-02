@@ -1,0 +1,15 @@
+Name: ViewList of Logs
+Actors: Direction
+Description: Displays the list of records for an academic year
+Preconditions:
+• The user must be logged into the system as Management • The user clicks on the "Digital Register" button
+Sequence of events
+User
+System
+2. Select the academic year
+1.Shows a screen for selecting the academic year of interest.
+3. Search the archive for all the digital registers of that year and view them associated with the class they belong to
+Postconditions:
+•
+• •
+The system is displaying the list of registers referring to a particular academic year The management interrupts the operation Connection to the SMOS server interrupted

@@ -1,0 +1,13 @@
+Name: StudentPageView
+Actors: Student
+Description: The report card of the student who requests it is displayed
+Preconditions:
+• The user logged into the system as a Student • The user clicks on "online report card"
+Sequence of events
+User
+System
+2. Select the report card of interest
+1. The system displays the report cards of the logged in student present in the archive
+3. View the details of the selected report card
+Postconditions:
+• The system displays a student report card. • Connection to the SMOS server interrupted

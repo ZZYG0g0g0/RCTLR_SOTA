@@ -1,0 +1,13 @@
+Name: ViewNoteList
+Actors: Administrator
+Description: Displays the list of notes relating to the student
+Preconditions:
+• • •
+The user must be logged in to the system as Administrator The user has carried out the use case "ViewDetailsSingleRegister" Click on the "Notes" button associated with a student
+Sequence of events
+User
+System
+1. Show all pupil notes recorded during the school year
+Postconditions:
+• • •
+The system is displaying the list of notes referring to the student The administrator interrupts the operation Connection to the SMOS server interrupted

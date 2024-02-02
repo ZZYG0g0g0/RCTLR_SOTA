@@ -1,0 +1,18 @@
+Name: ViewOfTeacherPage
+Actors: Teacher
+Description: Display of a report card
+Preconditions:
+• The user has logged into the system as a teacher • The user clicks on the "Online Report" button
+Sequence of events
+User
+System
+2. Select the academic year of interest.
+4. Select one of the displayed classes.
+6. Select the student to view the report card and the relevant four-month period by clicking on the appropriate button.
+1. View the list of academic years in which there is at least one class in which the teacher teaches.
+3. View the classes associated with the selected school year.
+5. Displays the list of students of the class chosen by the user
+7. View the report card of the chosen pupil referring to the specified term.
+Postconditions:
+• • •
+The system displays a student's report card The user interrupts the operation Connection to the SMOS server interrupted

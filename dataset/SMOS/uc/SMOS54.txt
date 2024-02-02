@@ -1,0 +1,15 @@
+Name: Enter Absences
+Actors: ATA staff
+Description: Digitization of the Register, data collection from ATA staff class by class
+Preconditions:
+• • •
+The user must be logged in to the system as ATA staff The user has carried out the use case ViewClassList Select a class to enter data into the system
+Sequence of events
+User
+System
+2. The user selects the absent students 3. Click on save
+1. Show the user a screen with pupils and radio buttons to select if a pupil is absent or present. By default the pupil is present.
+4. The system sends the data to the server. For each absence, the server sends a notification e-mail to the pupil's parent.
+Postconditions:
+• The absence data has been entered into the system, and the system has sent notifications to the parents. The user is shown the initial screen again.
+• Connection to the SMOS server interrupted. • The user interrupts the operation.

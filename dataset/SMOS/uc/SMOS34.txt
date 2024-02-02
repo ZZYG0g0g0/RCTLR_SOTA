@@ -1,0 +1,16 @@
+Name: ViewGiustificalList
+Actors: Administrator
+Description: Displays the list of justifications
+Preconditions:
+• • •
+The user must be logged in to the system as Administrator The user has carried out the use case "ViewDetailsSingleRegister" Click the "Justify" button for a student
+Sequence of events
+User
+System
+1. Show all the absences of the pupil
+registered school selected Absences already justified come
+displayed in green, those to be justified in red
+during the year
+Postconditions:
+• • •
+The system is displaying the list of justifications relating to the student The administrator interrupts the operation Connection to the SMOS server interrupted

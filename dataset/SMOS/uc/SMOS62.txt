@@ -1,0 +1,13 @@
+Name: OnePageView
+Actors: Parent
+Description: The report card of the requested pupil is displayed
+Preconditions:
+• The user logged into the system as a Parent • The user clicks on the report card button associated with one of his children
+Sequence of events
+User
+System
+2. Select the report card of interest
+1. View the report cards of the selected student
+3. View the details of the selected report card
+Postconditions:
+• The system displays a student report card. • Connection to the SMOS server interrupted

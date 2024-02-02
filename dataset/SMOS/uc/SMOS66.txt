@@ -1,0 +1,17 @@
+Name: OnePageView
+Actors: Direction
+Description: Display of a report card
+Preconditions:
+• The user has logged into the system as a Directorate • The user clicks on the "Online Report" button
+Sequence of events
+User
+System
+1. Select the academic year
+3. He chooses the class of the pupil whose report card he wants to view
+5. Select the student to view the report card and the four-month period of interest by clicking on the relevant button
+2. View the list of classes in the system with a "Report" button next to it associated with each class
+4. Displays the list of students of the class chosen by the user
+6. View the report card of the selected pupil referring to the selected semester.
+Postconditions:
+• • •
+The system displays a student's report card The user interrupts the operation Connection to the SMOS server interrupted

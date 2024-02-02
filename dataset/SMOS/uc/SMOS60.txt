@@ -1,0 +1,14 @@
+Name: ViewSchoolDataStudente
+Actors: Student
+Description: Display of school information about the user
+Preconditions:
+• The user is logged into the system as a student • The user clicks the "Digital Register" button
+Sequence of events
+User
+System
+1.
+2.
+Search the archive for data relating to the register of the class to which the student belongs
+View the data relating to the student and in particular: Date, Absences, Disciplinary Notes, Delays and Justifications.
+Postconditions:
+• The data of the class register relating to the student has been shown. • Connection to the SMOS server interrupted

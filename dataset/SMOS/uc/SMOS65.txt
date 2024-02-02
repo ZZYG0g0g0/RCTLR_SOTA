@@ -1,0 +1,13 @@
+Name: ViewLog
+Actors: Direction
+Description: Details related to the register of a class
+Preconditions:
+• •
+•
+The user is logged in to the management system The user has carried out the "ViewList of Registers" use case and the system is viewing the list of all the registers of a particular academic year The user clicks the "Register" button associated with a of classes
+Sequence of events
+User
+System
+1. View the information contained in the log organized by date on the screen. In particular, it shows, for the selected date, the list of students, specifying: absent / present, late entries and a form from which it is possible to manage justifications and disciplinary notes.
+Postconditions:
+• Information about the class register has been shown. • Connection to the SMOS server is interrupted

@@ -1,0 +1,15 @@
+
+Name: ViewDetailsAddress
+Actors: Administrator
+Description: Allows you to view the details of an address
+Preconditions:
+• •
+•
+The user is already logged in The user has already performed the "View Address List" use case and the system is viewing the list of addresses The user clicks the "show address details" button
+Sequence of events
+User
+System
+1. Displays the screen with the details of a single address; in particular: name address.
+Postconditions:
+• The user views detailed information relating to a single address.
+• Connection to SMOS server interrupted Connection to SMOS server interrupted

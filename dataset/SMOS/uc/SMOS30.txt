@@ -1,0 +1,16 @@
+Name: EnterAdmin Delays
+Actors: Administrator
+Description: Digitization of the Register, data entry by the Administrator
+Preconditions:
+• • •
+The user must be logged in to the system as an Administrator The user has carried out the use case "ViewDetailsSingleRegister" Select the date on which he wants to enter the information.
+Sequence of events
+User
+System
+2. Fill out the form by inserting late students and click "Save"
+1. Refresh the displayed screen according to the date
+3. Send the data to the server.
+4. View updated log data.
+Postconditions:
+• Delay data has been entered into the system, and the system has sent notifications to the parents. The system remains on the log screen.
+• The administrator interrupts the operation. • Connection to the SMOS server interrupted.

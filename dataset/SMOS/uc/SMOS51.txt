@@ -1,0 +1,13 @@
+Name: Reject Student Registration
+Actors: Administrator
+Description: Allows the administrator to refuse a student's system enrollment
+Preconditions:
+• The user has already done the "View Subscription Requests" use case • The user clicks the "Reject" button associated with a subscription request
+Sequence of events
+User
+System
+1. Delete the request for registration to the system.
+2. View the list of subscriptions still to be activated
+Postconditions:
+• • •
+The user has refused a request for registration to the system The user interrupts the operation Connection to the SMOS server interrupted

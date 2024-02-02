@@ -1,0 +1,12 @@
+Name: ShowTeachingDetails
+Actors: Administrator
+Description: Allows you to view the details of a course
+Preconditions:
+• The user has already logged in • The user has already run the use case "View List of Teachings" and the
+the system is viewing the list of courses • The user clicks on the "course details" button
+Sequence of events
+User
+System
+1. Displays the detail screen of a single course.
+Postconditions:
+• The user views the detailed information of a single course • Connection to the SMOS server interrupted

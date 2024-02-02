@@ -1,0 +1,15 @@
+Name: Enter Justify
+Actors: Administrator
+Description: Justify Entry
+Preconditions:
+• • • •
+The user must be logged in to the system as Administrator The user has carried out the use case "ViewDetailsSingleRegister" The user has performed the use case "ViewElencoGiustifiche" The user clicks on one of the absences in red
+Sequence of events
+User
+System
+2. Fill out the form 3. Click on "Save"
+1. Show a form in which to insert the fields of the justification (date justifies).
+4. Save justifies it.
+Postconditions:
+• The justification data has been entered into the system. The system returns to the log screen.
+• The administrator interrupts the operation • Connection to the SMOS server interrupted

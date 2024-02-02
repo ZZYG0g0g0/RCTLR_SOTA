@@ -1,0 +1,11 @@
+Name: View User List
+Actors: Administrator
+Description: Displays the list of users on the system
+Preconditions:
+• The user is logged in as an administrator • The user clicks on the "User Management" button
+Sequence of events
+User
+System
+1. Search for users in the archive and view the list
+Postconditions:
+• The system displays the list of users in the system • Connection to the SMOS server interrupted

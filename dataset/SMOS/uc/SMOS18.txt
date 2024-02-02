@@ -1,0 +1,17 @@
+
+Name: Enter New Address
+Actors: Administrator
+Description: Enters a new address in the archive
+Preconditions:
+• •
+•
+The user is logged in to the system as Administrator The user has already performed the "View Address List" use case and the system is viewing the list of addresses The user clicks the "New Address" button
+Sequence of events
+User
+2. Fill out the form 3. Click on the "Save" button
+System
+1. The system shows the form to be filled with: name address.
+4. Checks the validity of the data entered and enters a new address in the archive; in the event that the data entered is invalid, activate the "Data Error" use case.
+Postconditions:
+• • • •
+The user has entered an address The data error is notified Connection to the SMOS server interrupted The Administrator interrupts the operation

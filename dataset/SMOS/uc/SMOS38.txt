@@ -1,0 +1,13 @@
+Name: ViewDetailsJustify
+Actors: Administrator
+Description: Displays the details of a justification
+Preconditions:
+• • •
+The user must be logged in to the system as Administrator The user has carried out the use case "ViewElencoGiustifiche" Click on one of the absences in green
+Sequence of events
+User
+System
+1. Show a form with the details of the justification and the possibility to modify or delete the justification.
+Postconditions:
+• • •
+The system is displaying the details of a justification. The administrator interrupts the operation Connection to the SMOS server interrupted

@@ -1,0 +1,16 @@
+Name: ViewTeachingList
+Actors: Administrator
+Description: Allows you to view the list of courses
+Preconditions:
+• The user is logged into the system with the role of Administrator • The user clicks on the "Teaching Management" button
+Sequence of events
+User
+System
+1.
+2.
+Search the archive and teachings screen
+View teachings
+courses view the management of
+the list of
+Postconditions:
+• The system shows the list of courses in the archive • Connection to the SMOS server interrupted

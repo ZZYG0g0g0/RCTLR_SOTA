@@ -1,0 +1,13 @@
+
+Name: ViewDetailsClass
+Actors: Administrator
+Description: Allows you to view the details of a class
+Preconditions:
+• The user has already logged in • The user has already run the use case "ViewClass List" and the system
+is viewing the list of classes for an academic year • Click on the "show class details" button
+Sequence of events
+User
+System
+1. View the screen with the details of a single class: name, address, school year.
+Postconditions:
+• The user views detailed information relating to a class. • Connection to the SMOS server interrupted

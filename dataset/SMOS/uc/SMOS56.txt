@@ -1,0 +1,13 @@
+Name: View Teacher Class List
+Actors: Teacher
+Description: This use case allows a teacher to view the list of classes in which she teaches
+Preconditions:
+• The user is logged into the system as a teacher • The user clicks the "Digital Register" button
+Sequence of events
+User
+System
+2. Select the academic year of interest.
+1. View the list of academic years in which there is at least one class in which the teacher teaches.
+3. View the classes associated with the selected school year.
+Postconditions:
+• The list of all the classes in which the teacher teaches was shown • Connection to the SMOS server interrupted.

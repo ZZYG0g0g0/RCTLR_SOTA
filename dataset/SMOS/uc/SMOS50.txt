@@ -1,0 +1,13 @@
+Name: Accept Student Registration
+Actors: Administrator
+Description: Allows the administrator to accept a student's system enrollment
+Preconditions:
+• The user has already done the "View Enrollment Requests" use case • The user clicks the "Accept" button associated with a subscription request
+Sequence of events
+User
+System
+1. Activate the new user in the system.
+2. View the list of subscriptions still to be activated
+Postconditions:
+• • •
+The user has accepted a request for registration to the system The user interrupts the operation Connection to the SMOS server interrupted

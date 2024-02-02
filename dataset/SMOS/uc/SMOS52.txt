@@ -1,0 +1,11 @@
+Name: Entity Research Actors: Administrator
+Description: Allows the administrator to search the system for all the entities characterized by the keywords entered
+Preconditions:
+• The user is logged into the system as administrator • The user enters the text to search for and clicks on the "Search" button
+Sequence of events
+User
+System
+1. View the list of entities related to the searched keywords; in particular they are shown in an active list: Classes, Courses, Addresses, Users found.
+Postconditions:
+• The user is viewing an active list of entities corresponding to the keywords entered.
+• The user aborts the operation. • The connection to the SMOS server is interrupted

@@ -1,0 +1,14 @@
+Name: ViewSubscription Requests
+Actors: Administrator
+Description: Allows the administrator to view the list of enrollment requests that have come to the system
+Preconditions:
+• The user is logged into the system as an administrator • The user clicks on the "View List of Registration Requests" button
+present in the home
+Sequence of events
+User
+System
+1. View the list of subscriptions still to be activated.
+Postconditions:
+•
+• •
+The user is viewing the list of student registration requests to the system The user interrupts the operation Connection to the SMOS server interrupted

@@ -1,0 +1,11 @@
+Name: LoginErrato
+Actors: Registered user
+Description: Occurs when the user has entered incorrect authentication data.
+Preconditions:
+• The data provided for login is not correct
+Sequence of events
+User
+System
+1. View the login form
+Postconditions:
+• The user can try to login again

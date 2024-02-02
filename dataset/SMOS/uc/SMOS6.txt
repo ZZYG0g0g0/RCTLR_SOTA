@@ -1,0 +1,16 @@
+
+Name: New User
+Actors: Administrator
+Description: Insertion of a new user in the system
+Preconditions:
+• The user is logged in as an administrator • The user has carried out the use case "View User List" and the system is
+viewing the list of users in the system • The user clicks on the "New User" button
+Sequence of events
+User
+2. Fill in the form fields 3. Click on the "Save" button
+System
+1. Displays the user entry form consisting of the following fields: Name, Surname, e-mail, cell, login, password, confirm password.
+4. Checks the validity of the data entered and enters the new user in the archive; in the event that the data entered is invalid, activate the "Data Error" use case
+Postconditions:
+• • • •
+A new user has been created The data error is notified The administrator interrupts the operation Connection to the SMOS server interrupted

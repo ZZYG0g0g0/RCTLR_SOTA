@@ -1,0 +1,15 @@
+Name: EditTeaching
+Actors: Administrator
+Description: Edit details of a course
+Preconditions:
+• The user is logged into the system as Administrator • The user has run the use case "View Teaching Details" • The user views the detailed information of a course • The user modifies one of the information contained in the training form
+display of teaching details
+Sequence of events
+User
+System
+1. Click on the "Save" button
+2. Carry out checks on the validity of the data entered and modify the teaching in the archive; in the event that the data entered is invalid, activate the "Data Error" use case.
+3. View the updated course list
+Postconditions:
+• • • •
+The user has modified a course Data error is notified Connection to the SMOS server interrupted The Administrator interrupts the operation

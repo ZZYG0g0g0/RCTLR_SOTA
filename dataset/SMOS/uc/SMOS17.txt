@@ -1,0 +1,13 @@
+
+
+Name: ViewList of Addresses
+Actors: Administrator
+Description: Allows you to view the list of addresses
+Preconditions:
+• The user is logged into the system with the role of Administrator • The user clicks on the "Address Management" button
+Sequence of events
+User
+System
+1. View the list of addresses.
+Postconditions:
+• The system shows the list of addresses in the archive • Connection to the SMOS server interrupted

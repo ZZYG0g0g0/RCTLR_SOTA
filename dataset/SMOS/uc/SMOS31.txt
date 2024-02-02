@@ -1,0 +1,15 @@
+Name: Change Absence
+Actors: Administrator
+Description: Change of absences by the Administrator. The change is to be understood as insertion / cancellation of the absence.
+Preconditions:
+• • •
+The user must be logged in to the system as Administrator The user has carried out the use case "ViewDetailsSingleRegister" Select the date on which you want to change an absence
+Sequence of events
+User
+System
+2. Modify the absence (Insert or Delete) and click "Save"
+1. Refresh the screen based on the selected date
+3. Send the modified data to the server. The system sends a correction email to the pupil's parent.
+Postconditions:
+• The system changed the selected absence and sent the parents a notification of the change. The system remains on the log screen.
+• The administrator interrupts the operation • Connection to the SMOS server interrupted

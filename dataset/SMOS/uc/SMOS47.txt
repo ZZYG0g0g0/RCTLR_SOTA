@@ -1,0 +1,15 @@
+Name: EditOfFolder
+Actors: Administrator
+Description: Use case to change a pupil's report card
+Preconditions:
+• • •
+The user has logged into the system as Administrator The user has carried out the use case "ViewingOnePage" The user clicks on the edit button
+Sequence of events
+User
+2. Enter the new data and click the confirm button
+System
+1. View the form with the fields you can modify, including the grades of the various subjects
+3. The system displays a confirmation message and displays the form with the list of students
+Postconditions:
+• • •
+A report card relating to a student is modified The user interrupts the operation Connection to the SMOS server interrupted

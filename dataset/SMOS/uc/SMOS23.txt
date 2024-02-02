@@ -1,0 +1,15 @@
+Name: InsertNewTeaching
+Actors: Administrator
+Description: Adds a new course to the archive
+Preconditions:
+• The user is logged into the system as Administrator • The user has already run the use case "ViewList of Teachings" and the
+the system is viewing the list of courses • The user clicks on the "New Course" button
+Sequence of events
+User
+2. Fill out the form 3. Click on the "Save" button
+System
+1. The system shows the form to fill in with: name of the course.
+4. It checks the validity of the data entered and enters the new course in the archive; in the event that the data entered is invalid, activate the "Data Error" use case.
+Postconditions:
+• • • •
+The user has entered a course The error is notified Connection to the SMOS server interrupted The Administrator interrupts the operation

@@ -1,0 +1,3 @@
+dataset:experiment.project.iTrust model:ir.model.VSM precision:0.9 recall:0.07058823529411765 f1:0.13090909090909092
+dataset:experiment.project.iTrust model:ir.model.LSI precision:0.8444444444444444 recall:0.14901960784313725 f1:0.2533333333333333
+dataset:experiment.project.iTrust model:ir.model.JSD precision:0.95 recall:0.07450980392156863 f1:0.13818181818181818
